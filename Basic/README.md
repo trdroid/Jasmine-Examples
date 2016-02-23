@@ -33,3 +33,7 @@ https://github.com/jasmine/jasmine/releases/tag/v2.4.1
       inflating: src/Song.js             
       inflating: spec/PlayerSpec.js      
       inflating: spec/SpecHelper.js      
+
+### Project contents
+
+<img src="_misc/project%20structure.png"/>
