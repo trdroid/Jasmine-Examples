@@ -170,7 +170,7 @@ The test failed because there is no function called "add", so define the functio
 
 ### Making the Tests Pass
 
-Define the function "add" that is being tested.
+Define the function "add" in MathOperations.js that is being tested.
 
 ```javascript
 function add(num1, num2) {
@@ -182,3 +182,14 @@ function add(num1, num2) {
 
 <img src="_misc/Test%20Fail%20-%20Expectation%20does%20not%20match.png"/>
 
+Modify the definition of add MathOperations.js to do proper addition
+
+```javascript
+function add(num1, num2) {
+	return num1 + num2;
+}
+```
+
+<b> View SpecRunner.html </b>
+
+<img src="_misc/Test%20pass.png"/>
